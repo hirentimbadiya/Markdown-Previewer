@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Markdown Previewer</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Markdown Previewer</h1>
-    </header>
 
-    <div class="container">
-      <div class="input-area">
-        <h2>Markdown Input</h2>
-        <textarea
-          name=""
-          id="markdow-input"
-          cols="150"
-          rows="30"
-          placeholder="enter your markdown file"
-        ></textarea>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <title>Markdown Previewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Markdown Previewer</h1>
+  </header>
+
+  <div class="container">
+    <div class="input-area">
+      <h2>Markdown Input</h2>
+      <textarea name="" id="markdow-input" cols="150" rows="30" placeholder="enter your markdown file"></textarea>
     </div>
+  </div>
 
-    <div class="preview-area">
-      <h2>Preview</h2>
-      <div id="markdown-preview"></div>
-    </div>
+  <div class="preview-area">
+    <h2>Preview</h2>
+    <div id="markdown-preview"></div>
+  </div>
 
-    <script src="script.js"></script> 
-  </body>
+  <script src="script.js"></script>
+</body>
+
 </html>
