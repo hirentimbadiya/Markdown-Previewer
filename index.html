@@ -4,31 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Markdown Previewer</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   </head>
   <body>
     <header>
       <h1>Markdown Previewer</h1>
     </header>
 
-    <div class="container">
-      <div class="input-area">
-        <h2 class="markdown-input">Markdown Input</h2>
-        <textarea
-          name=""
-          id="markdow-input"
-          cols="150"
-          rows="30"
-          placeholder="enter your markdown file"
-        ></textarea>
-      </div>
-    </div>
+    <section>
+        <div class="input-area">
+          <h2 class="markdown-input">Markdown Input</h2>
+          <textarea
+            name=""
+            id="markdow-input"
+            placeholder="enter your markdown file"
+          ></textarea>
+        </div>
 
-    <div class="preview-area">
-      <h2>Preview</h2>
-      <div id="markdown-preview"></div>
-    </div>
+        <div class="preview-area">
+          <h2 class="markdown-input">Preview</h2>
+          <div id="markdown-preview"></div>
+        </div>
+    </section>
 
-    <script src="script.js"></script> 
+    <script src="script.js"></script>
   </body>
 </html>
