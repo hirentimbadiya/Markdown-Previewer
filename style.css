@@ -35,6 +35,8 @@ body, h1, h2, p, textarea {
   section{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
   }
  
   
