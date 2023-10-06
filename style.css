@@ -22,6 +22,7 @@ body, h1, h2, p, textarea {
   h1 {
     font-size: 36px;
   }
+
   
  
   .container {
@@ -39,7 +40,9 @@ body, h1, h2, p, textarea {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: left;
+    
   }
+  
   
   
   textarea {
@@ -69,6 +72,7 @@ body, h1, h2, p, textarea {
   h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    
   }
   
  
