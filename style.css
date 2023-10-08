@@ -81,6 +81,7 @@ body, h1, h2, p, textarea {
     border: 2px solid black;
     margin-top: 10px;
     height: 100vh;
+    overflow: auto;
     padding: 10px;
   }
   
