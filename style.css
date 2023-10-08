@@ -64,6 +64,11 @@ body, h1, h2, p, textarea {
     height: 100vh;
     flex:1;
   }
+  textarea:focus{
+    border: #e74c3c;
+    box-shadow: 2px 2px 10px rgba(231, 76, 60, 0.4);
+    border-radius: 5px;
+  }
   
 
   .preview-area {
