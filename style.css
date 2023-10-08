@@ -32,6 +32,11 @@ body, h1, h2, p, textarea {
     text-align: center;
   }
   
+  textarea:focus{
+    border: #e74c3c;
+    box-shadow:  2px 2px 10px rgba(231, 76, 60, 0.4);
+    border-radius: 3px;
+  }
  
   .container {
     display: flex;
