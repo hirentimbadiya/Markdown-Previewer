@@ -1,3 +1,25 @@
+# Table of Contents
+1. [Contributor Guidelines for Markdown-Previewer](#contributor-guidelines-for-markdown-previewer)
+2. [Assigning an Issue](#assigning-an-issue)
+3. [Contribution Process](#contribution-process)
+    1. [Star ⭐ the repository](#1-star-⭐-the-repository)
+    2. [Fork the repository](#2-fork-the-repository)
+    3. [Cloning this repository](#3-cloning-this-repository)
+    4. [Creating a New Branch](#4-creating-a-new-branch)
+    5. [Navigate to the project directory](#5-navigate-to-the-project-directory)
+    6. [Add a reference(remote) to the original repository](#6-add-a-reference-remote-to-the-original-repository)
+    7. [Check the remotes for this repository](#7-check-the-remotes-for-this-repository)
+    8. [Always take a pull from the upstream repository to your master branch](#8-always-take-a-pull-from-the-upstream-repository-to-your-master-branch)
+    9. [Create a new branch](#9-create-a-new-branch)
+    10. [Track your changes](#10-track-your-changes)
+    11. [Commit your changes](#11-commit-your-changes)
+    12. [Merge changes from master into your branch](#12-merge-changes-from-master-into-your-branch)
+    13. [Push the committed changes in your feature branch to your remote repo](#13-push-the-committed-changes-in-your-feature-branch-to-your-remote-repo)
+    14. [Creating a Pull Request (PR)](#14-creating-a-pull-request-pr)
+    15. [Code Review](#15-code-review)
+    16. [Merging](#16-merging)
+    17. [Congratulations! 🎊](#17-congratulations-🎊)
+    
 # Contributor Guidelines for Markdown-Previewer
 
 Thank you for your interest in contributing to Markdown-Previewer as part of Hacktoberfest! We greatly appreciate your contributions and want to ensure a smooth and efficient collaboration process. To maintain a structured workflow, please follow the guidelines outlined below.
