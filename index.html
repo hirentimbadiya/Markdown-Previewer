@@ -8,9 +8,15 @@
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   </head>
-  <body>
+  <body class="light-mode">
     <header>
       <h1>Markdown Previewer</h1>
+        <div id="themeToggle" onclick="toggleTheme()">
+          <div name="slider" id="slider" class="active-sun">
+              <span id="moon">🌙</span>
+              <span id="sun">☀️</span>
+          </div>
+        </div>
     </header>
 
     <section>
