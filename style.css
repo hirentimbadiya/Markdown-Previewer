@@ -11,8 +11,13 @@ body, h1, h2, p, textarea {
   }
   
   
-  body {
+  .light-mode {
     background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+
+  .dark-mode {
+    background-color: #121212ff;
     font-family: Arial, sans-serif;
   }
   
@@ -24,10 +29,68 @@ body, h1, h2, p, textarea {
     text-align: center;
   }
   
+  .dark-mode header {
+    background-color: #292929ff;
+    color: #ddddddff;
+  }
+  
+  .light-mode header {
+    background-color: #333;
+    color: #f0f0f0;
+  }
+  
+  #themeToggle {
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 1.25em;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 5rem;
+    justify-content: flex-end; 
+    margin-right: 20px; 
+}
+  
+  #slider {
+    width: 3.75rem; 
+    height: 1.875rem; 
+    border-radius: 0.9375rem; 
+    position: absolute;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .light-mode #slider {
+    background-color: #fff;
+  }
+  
+  .dark-mode #slider {
+    background-color: #333;
+  }
+  
+  #moon, #sun {
+    display: none;
+    position: absolute;
+  }
+  
+  #slider.active-moon #moon {
+    display: inline;
+    left: 0;
+  }
+  
+  #slider.active-sun #sun {
+    display: inline;
+    right: 0;
+  }
+  
  
   h1 {
     font-size: 36px;
   }
+  
   .markdown-input{
     text-align: center;
   }
@@ -43,7 +106,7 @@ body, h1, h2, p, textarea {
   .input-area {
     position: relative;
     margin-top: 20px;
-    background-color: #fff;
+    
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -57,6 +120,14 @@ body, h1, h2, p, textarea {
     min-height: 400px;
 
   }
+
+  .light-mode .input-area {
+    background-color: #fff;
+  }
+
+  .dark-mode .input-area {
+    background-color: #1e1e1eff;
+  }
   
   
   textarea {
@@ -67,7 +138,15 @@ body, h1, h2, p, textarea {
     border-radius: 5px;
     height: 100vh;
     flex:1;
+    
   }
+
+  .dark-mode textarea {
+    color: #e3e3e3ff;
+    background-color: #1e1e1eff;
+  }
+
+
 
   textarea:focus{
      border-color: #e74c3c;
@@ -88,6 +167,19 @@ body, h1, h2, p, textarea {
     margin: 20px;
     height: 100vh;
     min-height: 400px;
+  }
+
+  .dark-mode .preview-area {
+    color: #e3e3e3ff;
+    background-color: #1e1e1eff;
+  }
+
+  .light-mode .preview-area {
+    background-color: #fff;
+  }
+
+  .dark-mode .preview-area {
+    background-color: #1e1e1eff;
   }
 
   .code-block {
@@ -111,6 +203,16 @@ body, h1, h2, p, textarea {
   h2 {
     font-size: 24px;
     margin-bottom: 10px;
+  }
+
+  .dark-mode h2{
+    color: #ddddddff;
+    font-family: Arial, sans-serif;
+  }
+
+  .light-mode h2{
+    color: #121212ff;
+    font-family: Arial, sans-serif;
   }
   
  
