@@ -7,10 +7,28 @@
     <link rel="icon" type="image/x-icon" href="favicon2.jpg">
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap">
+
+
   </head>
   <body>
-    <header>
-      <h1>Markdown Previewer</h1>
+     <header>
+        <h1 class="title">Markdown Previewer</h1>
+        <div class="dark-mode-toggle">
+          <label for="toggle-switch">Dark Mode:</label>
+          <input type="checkbox" id="toggle-switch">
+      </div>
+        <div class="font">
+            <label for="font-family" class="font-size">Select Font Family:</label>
+            <select id="font-family">
+              <option value="Arial, sans-serif">Arial, sans-serif</option>
+              <option value="'Poppins', sans-serif">Poppins, sans-serif</option>
+              <option value="'Roboto', sans-serif">Roboto, sans-serif</option>
+              <option value="'Montserrat', sans-serif">Montserrat, sans-serif</option>
+            </select>
+        </div>
     </header>
 
     <section>
