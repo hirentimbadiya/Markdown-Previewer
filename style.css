@@ -49,6 +49,7 @@ body, h1, h2, p, textarea {
     width: 5rem;
     justify-content: flex-end; 
     margin-right: 20px; 
+    flex: 1;
 }
   
   #slider {
@@ -247,4 +248,10 @@ body, h1, h2, p, textarea {
     .preview-area{
       width: 80%;
     }
+  }
+
+  .headerContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
