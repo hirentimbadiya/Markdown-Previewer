@@ -107,7 +107,6 @@ body, h1, h2, p, textarea {
   .input-area {
     position: relative;
     margin-top: 20px;
-    
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -124,10 +123,16 @@ body, h1, h2, p, textarea {
 
   .light-mode .input-area {
     background-color: #fff;
+    ::placeholder{
+      color: #121212ff;
+    }
   }
 
   .dark-mode .input-area {
-    background-color: #1e1e1eff;
+    background-color: rgb(15, 27, 45);
+    ::placeholder{
+      color: #e3e3e3ff;
+    }
   }
   
   
@@ -144,10 +149,8 @@ body, h1, h2, p, textarea {
 
   .dark-mode textarea {
     color: #e3e3e3ff;
-    background-color: #1e1e1eff;
+    background-color: black;
   }
-
-
 
   textarea:focus{
      border-color: #e74c3c;
@@ -159,7 +162,6 @@ body, h1, h2, p, textarea {
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: #fff;
     border-radius: 10px;
     margin-top: 20px;
     padding: 20px;
@@ -172,7 +174,6 @@ body, h1, h2, p, textarea {
 
   .dark-mode .preview-area {
     color: #e3e3e3ff;
-    background-color: #1e1e1eff;
   }
 
   .light-mode .preview-area {
@@ -180,7 +181,7 @@ body, h1, h2, p, textarea {
   }
 
   .dark-mode .preview-area {
-    background-color: #1e1e1eff;
+    background-color: rgb(15, 27, 45);
   }
 
   .code-block {
@@ -198,6 +199,11 @@ body, h1, h2, p, textarea {
     height: 100vh;
     min-height: 325px;
     padding: 10px;
+  }
+
+  .dark-mode #markdown-preview {
+    background-color: black;
+    color: #e3e3e3ff;
   }
   
   
