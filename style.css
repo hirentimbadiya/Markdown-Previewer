@@ -144,6 +144,7 @@ body, h1, h2, p, textarea {
     border-radius: 5px;
     height: 100vh;
     flex:1;
+    resize:none;
     
   }
 
