@@ -1,5 +1,5 @@
 # Introduction 
-a basic web app that **allows users to input Markdown and see a live preview of the formatted text**. This project can involve **HTML, CSS, and JavaScript**. Beginners can work on the input/output layout, and more advanced beginners can add real-time updating features.
+A simple web application that **permits users to input Markdown and instantly view a preview of the formatted text**. This project encompasses **HTML, CSS, and JavaScript**. Novices can focus on designing the input and output layout, while slightly more experienced beginners can implement real-time updating functionalities.
 
 # Project Description:
 The goal of this project is to build a web app that **takes user input in Markdown format and displays a live preview of the formatted text**. Users can type or paste their Markdown text, and the preview updates in real-time.
