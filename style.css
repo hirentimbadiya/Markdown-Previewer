@@ -200,6 +200,7 @@ body, h1, h2, p, textarea {
     height: 100vh;
     min-height: 325px;
     padding: 10px;
+    overflow: scroll;
   }
 
   .dark-mode #markdown-preview {
